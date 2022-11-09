@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+nav{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.mainImage{
+    width: 100%;
+}
+
+button{
+    color: #FFFDFA;
+    background: #F15D51;
+    border: none;
+    width: 11rem;
+    height: 3rem;
+    letter-spacing: 4.375px
+}
