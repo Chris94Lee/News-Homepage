@@ -34,3 +34,49 @@ button{
     height: 3rem;
     letter-spacing: 4.375px
 }
+
+.secondSection{
+    margin: 4rem 0 4rem 0;
+    background: #00001A;
+    padding: 1.2rem;
+}
+
+.secondSection > h2{
+    color: #E9AA52;
+}
+
+.newsSecond{
+    color: #FFFDFA
+}
+
+
+.news{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.news > img{
+    width: 7rem;
+}
+
+.newsColumn{
+    margin-left: 1.5rem;
+}
+
+.newsColumn > h2{
+    font-size:2rem;
+    color: #C5C6CE;
+    margin: 0;
+}
+
+.newsColumn > h3{
+    font-size: 1.1rem;
+    color: #00001A;
+}
+
+.newsColumn{
+    font-size: 0.9rem;
+    color: #5E607A;
+}
+
