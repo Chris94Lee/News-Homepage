@@ -17,7 +17,7 @@ header{
 }
 
 .mobileMenu{
-    display: flex;
+    display: none;
     position: absolute;
     flex-direction: column;
     background-color: #FFFDFA;
