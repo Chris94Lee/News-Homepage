@@ -12,8 +12,37 @@ header{
     padding: 1.5rem 1rem;
 }
 
-nav{
+.desktopNav{
     display: none;
+}
+
+.mobileMenu{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: #FFFDFA;
+    top: 0%;
+    right: 0%;
+    width: 60%;
+    height: 100vh;
+    padding: 1.5rem;
+}
+
+.mobileMenu > img{
+    align-self: flex-end;
+}
+
+.mobileNav{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileNav > a{
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem;
+    color: #00001A;
+    text-decoration: none;
 }
 
 main{
@@ -32,7 +61,14 @@ button{
     border: none;
     width: 11rem;
     height: 3rem;
-    letter-spacing: 4.375px
+    letter-spacing: 4.375px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: #00001A;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .secondSection{

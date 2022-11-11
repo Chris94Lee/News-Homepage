@@ -15,14 +15,24 @@
 <body>
   <header>
     <img src="/assets/images/logo.svg" alt="Company logo">
-    <img src="/assets/images/icon-menu.svg" alt="">
-    <nav>
+    <img src="/assets/images/icon-menu.svg" alt="" id="openMenu" onclick="menuFunction()">
+    <nav class="desktopNav">
       <a href="">Home</a>
       <a href="">New</a>
       <a href="">Popular</a>
       <a href="">Trending</a>
       <a href="">Categories</a>
     </nav>
+    <div class="mobileMenu" id="mobileMenu">
+      <img src="/assets/images/icon-menu-close.svg" alt="Close menu icon" id="closeMenu" onclick="menuFunction()">
+      <nav class="mobileNav">
+        <a href="">Home</a>
+        <a href="">New</a>
+        <a href="">Popular</a>
+        <a href="">Trending</a>
+        <a href="">Categories</a>
+      </nav>
+    </div>
   </header>
   <main>
     <div class="firstSection">
@@ -79,6 +89,7 @@
     </div>
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 
 </html>
